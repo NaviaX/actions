@@ -9,7 +9,7 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     env:
-      REPO: https://github.com/SunYufei/bot.git
+      REPO: https://github.com/NaviaX/bot.git
       BRANCH: job
       CODE_PATH: job
     steps:
