@@ -1,8 +1,6 @@
 name: run codes at public repository
 
 on:
-  schedule:
-    - cron: '50 23 * * 0-4'
   workflow_dispatch:
     inputs:
       mode:
